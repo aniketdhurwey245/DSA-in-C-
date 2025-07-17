@@ -2,7 +2,7 @@
 #include<math.h>
 using namespace std;
 int main(){
-
+// decimal to binary conversion
 int n;
 cin>>n;
 
