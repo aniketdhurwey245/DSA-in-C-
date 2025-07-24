@@ -4,6 +4,8 @@ using namespace std;
 int duplicateElement(int arr[], int size){
 
     int ans = 0;
+    int result;
+    
 
     for(int i = 0; i<size ; i++){
 
@@ -14,7 +16,11 @@ int duplicateElement(int arr[], int size){
 
     for(int i =1; i<size; i++){
             ans = ans^i;
+
+            ;
         }
+
+       
 
     return ans;
 }
